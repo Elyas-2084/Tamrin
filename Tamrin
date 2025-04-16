@@ -1,0 +1,375 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace My_Project
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //گرفتن 20 عدد و چاپ کوچکترین عدد
+            //int min = int.MaxValue;
+            //for (int i=0;i<20;i++)
+            //{
+            //    Console.Write("Input Ihe Number=");
+            //    int num = int.Parse(Console.ReadLine());
+            //    if (num< min)
+            //    {
+            //        min = num;
+            //    }
+            //}
+            //Console.WriteLine("Smaller=" + min);
+            //---------------------------------------------------------------
+
+            //گرفتن 20 عدد و چاپ بزرگترین عدد
+            //int max = int.MinValue;
+            //for (int i = 0; i < 5; i++)
+            //{
+            //    Console.Write("Input Ihe Number=");
+            //    int num = int.Parse(Console.ReadLine());
+            //    if (num > max)
+            //    {
+            //        max = num;
+            //    }
+            //}
+            //Console.WriteLine("Larger=" + max);
+            //---------------------------------------------------------------
+
+            //گرفتن 20 عدد و چاپ میانگین
+            //int sum = 0;
+            //for(int i=0;i<20;i++)
+            //{
+            //    Console.Write("Input Ihe Number=");
+            //    int num = int.Parse(Console.ReadLine());
+            //    sum += num;
+            //}
+            //double avg = sum / 20;
+            //Console.WriteLine("Avrage=" + avg);
+            //---------------------------------------------------------------
+
+            //گرفتن 20 عدد و چاپ اعدادی که رقم اخر آن 5 است
+            //for (int i = 0; i < 20; i++)
+            //{
+            //    Console.Write("Input Ihe Number=");
+            //    int num = int.Parse(Console.ReadLine());
+            //    if (num % 10 == 5)
+            //    {
+            //        Console.WriteLine("Add Ba Ragham Akhar 5=" + num);
+            //    }
+            //}
+            //---------------------------------------------------------------
+
+            //فاکتوریل
+            //Console.Write("Input Ihe Number=");
+            //int num = int.Parse(Console.ReadLine());
+            //long fact = 1;
+            //for(int i=1;i<=num;i++)
+            //    fact *= i;
+            //    Console.WriteLine("Faktoriil=" + fact);
+            //---------------------------------------------------------------
+
+            //گرفتن عدد و چاپ تعداد ارقام
+            //Console.Write("Input Ihe Number=");
+            //int num = int.Parse(Console.ReadLine());
+            //int count = 0;
+            //int temp = Math.Abs(num);
+            //while(temp>0)
+            //{
+            //    count++;
+            //    temp /= 10;
+            //}
+            //Console.WriteLine("Tedad Argham=" + count);
+            //---------------------------------------------------------------
+
+            //چاپ وارون (برعکس) عدد
+            //Console.Write("Input Ihe Number=");
+            //int num = int.Parse(Console.ReadLine());
+            //int reverse = 0;
+            //while(num!=0)
+            //{
+            //    reverse = reverse * 10 + num % 10;
+            //    num /= 10;
+            //}
+            //Console.WriteLine("Varon Add=" + reverse);
+            //---------------------------------------------------------------
+
+            //گرفتن عدد و مشخصص کردن اول بودن آن 
+            //Console.Write("Input Ihe Number=");
+            //int num = int.Parse(Console.ReadLine());
+            //bool aval;
+            //aval = num > 1;
+            //for (int i = 2; i < Math.Sqrt(num); i++)
+            //{
+            //    if (num % i == 0)
+            //    {
+            //        aval = false;
+            //        Console.WriteLine("Add Aval Nist");
+            //        break;
+            //    }
+            //}
+            //---------------------------------------------------------------
+
+            //اعداد اول  بین 1 تا 1000
+            //for (int num=2;num<=1000;num++)
+            //{
+            //    bool aval = true;
+            //    for (int i=2;i<=Math.Sqrt(num);i++)
+            //    {
+            //        if (num%i==0)
+            //        {
+            //            aval = false;
+            //            break;
+            //        }
+            //    }
+            //    if (aval)
+            //        Console.WriteLine(num + " ");
+            //}
+            //---------------------------------------------------------------
+
+            //چاپ قرینه اعداد چهار رقمی
+            //for (int i=1000;i<=9999;i++)
+            //{
+            //    string s = i.ToString();
+            //    if (s[0] == s[3] && s[1] == s[2])
+            //        Console.WriteLine(i);
+            //}
+            //---------------------------------------------------------------
+
+            //مجموع سری عدد وارد شده
+            //Console.Write("Input Ihe Number=");
+            //int num = int.Parse(Console.ReadLine());
+            //int sum = 0;
+            //for(int i=1;i<=num;i++)
+            //{
+            //    if (i % 2 == 0)
+            //        sum += i;
+            //    else
+            //        sum -= i;
+
+            //}Console.WriteLine("Majmoe Serii=" + sum);
+            //---------------------------------------------------------------
+
+
+
+
+            //---------------------------------------------------------------
+
+            // مقسوم علیه های عدد وارد شده و مجموع انها و تعداد آنها
+            //Console.Write("Input Ihe Number=");
+            //int num = int.Parse(Console.ReadLine());
+            //int sum = 0;
+            //int count = 0;
+            //Console.WriteLine("Maghsom=" + num + ":");
+            //for(int i=1;i<=num;i++)
+            //{
+            //    if(num%i==0)
+            //    {
+            //        Console.WriteLine(i);
+            //        sum += i;
+            //        count++;
+            //    }
+            //}Console.WriteLine("Maghsom=" + count);
+            //Console.WriteLine("Sum=" + sum);
+
+            //---------------------------------------------------------------
+            //تعیین چندمین روز سال
+            //Console.Write("Input The Day=");
+            //int day = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Input The Mounth=");
+            //int mounth = int.Parse(Console.ReadLine());
+            //int[] DayInMounth = { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
+            //int DayOfYear = day;
+            //for (int i = 0; i < mounth; i++)
+            //    DayOfYear += DayInMounth[i];
+            //Console.WriteLine("Rouz " + DayOfYear + " Az Sal Hastim");
+            //---------------------------------------------------------------
+
+            //محاسبه ب.م.م
+            //Console.Write("Input The Number1=");
+            //int num1 = int.Parse(Console.ReadLine());
+            //Console.Write("Input The Number2=");
+            //int num2 = int.Parse(Console.ReadLine());
+            //while(num2!=0)
+            //{
+            //    int temp = num2;
+            //    num2 = num1 % num2;
+            //    num1 = temp;
+            //}
+            //Console.WriteLine("B.M.M=" + num1);
+            //---------------------------------------------------------------
+
+            //مجموع ارقام عدد دریافت شده
+            //Console.Write("Input The Number1=");
+            //int num = int.Parse(Console.ReadLine());
+            //int sum = 0;
+            //while(num>0)
+            //{
+            //    sum += num % 10;
+            //    num /= 10;
+            //}
+            //Console.WriteLine("Majmoe Argham=" + sum);
+            //---------------------------------------------------------------
+
+            //حقوق کارمندان
+            //Console.Write("Input The Number Employee=");
+            //int count = int.Parse(Console.ReadLine());
+            //for(int i=1;i<=count;i++)
+            //{
+            //    Console.WriteLine("number Employee " + i);
+            //    Console.Write("Name=");
+            //    string name = Console.ReadLine();
+            //    Console.Write("Hours=");
+            //    double hours =double.Parse( Console.ReadLine());
+            //    Console.Write("Money=");
+            //    double rate = double.Parse( Console.ReadLine());
+            //    double salary = hours * rate;
+            //    Console.WriteLine("Hoghogh=" + Name + " : " + salary);
+            //---------------------------------------------------------------
+
+            //مضارب اعداد 2 تا 1000
+            //for (int i = 2; i <= 1000; i += 2)
+            //    Console.WriteLine(i);
+            //---------------------------------------------------------------
+
+            //مضارب اعداد 9 تا 1000
+            //for (int i = 9; i <= 1000; i += 2)
+            //    Console.WriteLine(i);
+            //---------------------------------------------------------------
+
+            //بررسی تقسیم پذیری عدد وارد شده بر مجموع ارقامش
+            //Console.Write("Input The Number=");
+            //int num = int.Parse(Console.ReadLine());
+            //int sum = 0;
+            //int temp = num;
+            //while(temp>0)
+            //{
+            //    sum += temp % 10;
+            //    temp /= 10;
+            //}
+            //if (num % sum == 0)
+            //    Console.WriteLine("Add Bar Majmoe Arghamash Bakhsh Pazir Hast");
+            //else
+            //    Console.WriteLine("Add Bar Majmoe Arghamash Bakhsh Pazir Nist");
+            //---------------------------------------------------------------
+
+            // مضرب های 3 بین دو عدد وارد شده
+            //Console.Write("Input The Number=1=");
+            //int number1 = int.Parse(Console.ReadLine());
+            //Console.Write("Input The Number=2=");
+            //int number2 = int.Parse(Console.ReadLine());
+            //for(int i=Math.Min(number1,number2);i<=Math.Max(number1,number2);i++)
+            //{
+            //    if (i%3==0)
+            //        Console.WriteLine(i);
+            //}
+            //---------------------------------------------------------------
+
+            //تولید اعداد چهار رقمی با شرایط رقمهای یکان و دهگان زوج و صدگان و هزارگان فرد 
+            //for (int i=1000;i<=9999;i++)
+            //{
+            //    int yekan = i % 10;
+            //    int dahghan = (i / 10) % 10;
+            //    int sadghan = (i / 100) % 10;
+            //    int hezarghan = i / 1000;
+            //    if (yekan % 2 == 0 && sadghan % 2 == 0 && dahghan % 2 == 1 && hezarghan % 2 == 1)
+            //        Console.WriteLine(i);
+            //}
+            //---------------------------------------------------------------
+
+            //تبدیل سکه 1000 تومانی به سکه های کوچکتر
+            //int count = 0;
+            //for(int a=0;a<=5;a++)
+            //{
+            //    for(int b=0;b<=10;b++)
+            //    {
+            //        for(int c=0;c<=20;c++)
+            //        {
+            //            if(a*200+b*100+c*50==1000)
+            //            {
+            //                count++;
+            //            }
+            //        }
+            //    }
+            //}Console.WriteLine("Tedad Halat=" + count);
+            //---------------------------------------------------------------
+
+            //حاصل ضرب دو عدد با جمع های متوالی
+            //Console.Write("Input The Number=1=");
+            //int num1 = int.Parse(Console.ReadLine());
+            //Console.Write("Input The Number=2=");
+            //int num2 = int.Parse(Console.ReadLine());
+            //int result = 0;
+            //for(int i=0;i<Math.Abs(num2);i++)
+            //{
+            //    result += num1;
+            //}
+            //if (num2 < 0)
+            //    result = -result;
+            //Console.WriteLine("Hasel Zarb=" + result);
+            //---------------------------------------------------------------
+
+            //چاپ مثلث خیام پاسکال
+            //Console.Write("Input The Number Rows=");
+            //int rows = int.Parse(Console.ReadLine());
+            //for(int i=0;i<rows;i++)
+            //{
+            //    int number = 1;
+            //    Console.Write(new string(' ', (rows - i) * 2));
+            //    for (int j = 0; j <= i; j++)
+            //    {
+            //        Console.Write(number + "   ");
+            //        number = number * (i - j) / (j + 1);
+            //    }
+            //    Console.WriteLine();
+            //}
+            //---------------------------------------------------------------
+
+            //عدد اول فیبوناچی
+            //Console.Write("Tedad=");
+            //int number = int.Parse(Console.ReadLine());
+            //int a = 0;
+            //int b = 1;
+            //for(int i=0;i<number;i++)
+            //{
+            //    Console.Write(a + " ");
+            //    int temp = a * b;
+            //    a = b;
+            //    b = temp;
+            //}
+            //---------------------------------------------------------------
+
+            //عدد قوی بودن یا نه
+            //Console.Write("Input The Number=");
+            //int num = int.Parse(Console.ReadLine());
+            //int sum = 0;
+            //int temp = num;
+            //while(temp>0)
+            //{
+            //    int digit = temp % 10;
+            //    int fact = 1;
+            //    for (int i = 1; i <= digit; i++)
+            //        fact *= i;
+            //        sum += fact;
+            //    temp /= 10;
+            //}
+            //if (sum == num)
+            //    Console.WriteLine("Add Ghavii Hast");
+            //else
+            //    Console.WriteLine("Add Ghavii Nist");
+            //---------------------------------------------------------------
+
+            //برعکس نوشتن رشته
+            //Console.Write("Input The Character=");
+            //string character = Console.ReadLine();
+            //char[] chararray = character.ToCharArray();
+            //Array.Reverse(chararray);
+            //string reverse = new string(chararray);
+            //Console.WriteLine("Character Reverse=" + reverse);
+            //---------------------------------------------------------------
+
+        }
+    }
+}
